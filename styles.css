@@ -26,8 +26,11 @@
     --javascript: rgb(252, 234, 74);
 }
 
-html, body {
+html {
     scroll-behavior: smooth;
+}
+
+body {
     color: var(--text_color);
     background-color: var(--background);
     transition: .5s;
